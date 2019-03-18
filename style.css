@@ -1,0 +1,83 @@
+
+
+/***************************************************************************************************/
+                                        /*The Grid*/
+/***************************************************************************************************/
+
+
+/*Creates the background grid*/
+div#myGrid
+{
+	background: white;
+	border: 1px solid white;
+    padding:25px;
+	margin:0px auto;
+	width:640px;
+	height:640px;
+	
+}
+
+
+
+
+
+
+/*dynamic little divs placed inside the large grid*/
+/*We target the div with an id of myGrid and we specify a rule to target all child divs*/
+div#myGrid > div
+{
+	background: url(../images/shapes.jpg) no-repeat;
+	border:#000 1px solid;
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:50px;
+	cursor:pointer;
+	text-align:center;
+    position: relative;
+}
+
+
+
+
+
+
+/*css on my card images*/
+.myimages, #allcards, img
+    {
+        width: auto;
+        height: 100%;
+		margin: auto;
+        object-fit: contain;
+  	}
+
+
+
+
+
+/***************************************************************************************************/
+                                        /*Body*/
+/***************************************************************************************************/
+
+body 
+{
+    background-color: black;
+}
+
+
+
+#gametitle 
+{
+    text-align: center;
+   font-size: 60px;
+    color: azure;
+    
+}
+
+
+
+
+
+
